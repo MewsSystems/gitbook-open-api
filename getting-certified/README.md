@@ -1,7 +1,7 @@
 # Getting certified
 
 Once the development and testing of your integration is complete, you will need to be certified, this is simply to confirm that the integration works as expected and respects the guidelines for the API.
-Once certified, your solution can join the [Mews Marketplace](../mews-marketplace/README.md), your ultimate goal for future revenue generation.
+Once certified, your solution can join the [Mews Marketplace](../mews-marketplace/README.md), your ultimate goal to unlock future revenue and new opportunities.
 
 The certification process is as follows:
 
