@@ -10,8 +10,8 @@ Mews currently supports three separate APIs, each serving a different purpose.
 
 The documentation for each API is self-contained and consists of two parts:
 
-* API Guide - a set of guidelines on how to use the API
-* API Reference - a detailed reference for all the API operations
+* A set of guidelines on how to use the API
+* A detailed reference for all the API operations
 
 And each API is hosted as a public GitHub repository.
 
