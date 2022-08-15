@@ -32,6 +32,7 @@ This API is for Channel Managers and other distribution channels to fetch availa
 ## Mews Booking Engine API
 
 This API is for booking engines to enable your customers to create reservations directly in Mews.
+Please note that if you want to build a custom booking engine solution, you will need a Mews Enterprise subscription.
 
 * For the full documentation, see [Mews Booking Engine API](https://mews-systems.gitbook.io/booking-engine-guide/)
 

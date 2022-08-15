@@ -2,6 +2,9 @@
 
 Welcome to the __Mews Open API__ developer documentation. Here you will find all the information you need to get started working with the __Mews Open API__ as quickly as possible, as well as support in case you get stuck, and of course a full reference for each individual API. Let's jump in!
 
+> **Partner ID**<br>
+> You will be given a Partner ID at the start of the process, please keep this safe as you will need this ID when it is time to certify your integration.
+
 ## User Guide
 
 * [Getting started](getting-started/README.md)
