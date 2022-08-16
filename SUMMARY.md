@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Mews Open API](README.md)
 * [Getting started](getting-started/README.md)
 * [Mews Marketplace](mews-marketplace/README.md)
 * [Your journey with Mews](your-journey/README.md)

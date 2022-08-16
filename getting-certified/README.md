@@ -1,18 +1,18 @@
 # Getting certified
 
-> **Partner ID**<br>
+> ### Partner ID
 > You will be given a Partner ID at the start of the process, please keep this safe as you will need this ID when it is time to certify your integration.
 
 Once the development and testing of your integration is complete, you will need to be certified by Mews. This is simply to confirm that the integration works as expected and respects the guidelines for the API.
 Once certified, your solution can join the [Mews Marketplace](../mews-marketplace/README.md), your ultimate goal to unlock future revenue opportunities.
 
-## The Certification process
+## The certification process
 
 The details vary slightly depending on which API you are certifying, but the broad outline is as follows:
 
 1. Apply for certification by completing the [certification form](https://mews.typeform.com/to/ehTUz7).
 2. You will be notified if your application is successful or if there are issues that need to be rectified.
-3. If your integration is a public integration and your application is successful, then you will be added to the _Coming Soon_ section in both the Mews Marketplace and in our customer newsletter.
+3. If your integration is a public integration and your application is successful, then you will be added to the _Coming Soon_ section in both the Mews Marketplace and our customer newsletter.
 4. You will be invited to book your certification appointment.
 5. When the appointment is confirmed, you will receive details of the Client Token and test property that will be used, and any additional preparations you may need to make.
     * For Channel Manager API integrations, for example, you will need to set up endpoints for the Channel Manager side of the integration and notify us of the details.

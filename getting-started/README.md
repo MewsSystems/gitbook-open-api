@@ -4,8 +4,7 @@ Welcome to the __Mews Open API__. This is a powerful tool that enables you to ea
 Use the __Mews Open API__ to fetch data, make bookings, adjust rates, post charges, upsell products, and do a myriad of other things.
 
 We take the 'open' part very seriously, which is why we make it as easy as possible to connect and why we are always trying to remove barriers to successful adoption.
-We provide a Demo environment for developers so you can start coding and testing straight away.
-All the documentation is compact and straightforward and publicly hosted on [GitHub](https://github.com/MewsSystems).
+All the documentation is compact and straightforward and publicly hosted on [GitHub](https://github.com/MewsSystems), and we provide a Demo environment for developers so you can start coding and testing straight away.
 
 ## A family of APIs
 

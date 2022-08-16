@@ -1,9 +1,9 @@
-# Introduction
+# Mews Open API
 
 Welcome to the __Mews Open API__ developer documentation. Here you will find all the information you need to get started working with the __Mews Open API__ as quickly as possible, as well as support in case you get stuck, and of course a full reference for each individual API. Let's jump in!
 
-> **Partner ID**<br>
-> You will be given a Partner ID at the start of the process, please keep this safe as you will need this ID when it is time to certify your integration.
+> ### Partner ID
+> You will be given a Partner ID at the start of your integration journey, please keep this safe as you will need this when it's time to certify your integration.
 
 ## User Guide
 
@@ -27,5 +27,5 @@ If you need further assistance, or have any questions or special requests, pleas
 
 > ### Changes to the documentation
 > To track changes and updates to this documentation, you can follow the [GitHub repository](https://github.com/MewsSystems/gitbook-open-api/tree/master).
-> The documentation for each individual API is also on GitHub, and we maintain a Changelog and list of Deprecations for each API.
-> For details, see each individual API.
+> For the individual APIs, we maintain Changelog and Deprecations pages, or you can also follow these on GitHub if you prefer.
+> For details, see the individual APIs.
