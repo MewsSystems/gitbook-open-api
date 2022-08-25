@@ -6,6 +6,9 @@
 Once the development and testing of your integration is complete, you will need to be certified by Mews. This is simply to confirm that the integration works as expected and respects the guidelines for the API.
 Once certified, your solution can join the [Mews Marketplace](../mews-marketplace/README.md), your ultimate goal to unlock future revenue opportunities.
 
+> ### Booking Engine integrations
+> Booking Engine integrations are the exception and do not need to be certified.
+
 ## The certification process
 
 The details vary slightly depending on which API you are certifying, but the broad outline is as follows:

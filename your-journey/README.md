@@ -16,6 +16,9 @@ You just need to follow these steps:
 
 If you have questions about the process, drop us a line to [partnersuccess@mews.com](mailto:partnersuccess@mews.com).
 
+> ### Booking Engine integrations
+> Booking Engine integrations are the exception and do not need to be certified nor use a pilot property, and will not normally be listed on the Marketplace, so you can skip Steps 4, 5 and 6.
+
 ## Step 1: Exploration
 
 First find out [which of our APIs you should be using](../the-mews-apis/README.md).
@@ -39,7 +42,7 @@ For example, if you're working with the Mews Connector API, the [guidelines](htt
 
 ## Step 4: Certification
 
-When you are finished developing and testing, it's time to get certified! Complete the [certification form](https://mews.typeform.com/to/ehTUz7) and you'll be able to select a date for certification.
+When you are finished developing and testing, it's time to get certified! Complete the [certification form](https://mews.typeform.com/to/ehTUz7) and we'll send you further instructions by email.
 As part of the certification process, you will be asked for some details about your integration, such as the endpoints you will be using and the request message frequency.
 For more information about the process, see [Connector API Certification: What to expect](https://help.mews.com/s/article/connector-api-certification-what-to-expect?language=en_US) and [Channel API Certification: What to expect](https://help.mews.com/s/article/channel-api-certification-what-to-expect?language=en_US).
 
