@@ -1,7 +1,8 @@
 # Your journey with Mews
 
 > ### Partner ID
-> You will be given a Partner ID at the start of the process, please keep this safe as you will need this ID when it is time to certify your integration.
+> You will be given a Partner ID at the start of the process (e.g. INT123456), please keep this safe as you will need this ID when it is time to certify your integration.
+> Not got one yet? [Register to join the Marketplace](https://www.mews.com/en/products/marketplace).
 
 We want your experience working with Mews to be quick and simple, so we make the process as automated and self-service as possible and minimise touchpoints with the Mews team.
 You just need to follow these steps:
@@ -27,7 +28,7 @@ Once you've had a chance to familiarize yourself with the APIs and the process, 
 
 * Which API or APIs will you be developing against?
 * Is this a private integration (for just one enterprise customer) or a public integration (available through the Mews Marketplace)?
-* If this is a public integration, then what will be the pilot site?
+* If this is a public integration, then what will be the pilot property?
 * What is your estimated timescale for development?
 
 ## Step 3: Development

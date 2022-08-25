@@ -1,7 +1,7 @@
 # Getting certified
 
 > ### Partner ID
-> You will be given a Partner ID at the start of the process, please keep this safe as you will need this ID when it is time to certify your integration.
+> You will be given a Partner ID at the start of the process (e.g. INT123456), please keep this safe as you will need this ID when it is time to certify your integration.
 
 Once the development and testing of your integration is complete, you will need to be certified by Mews. This is simply to confirm that the integration works as expected and respects the guidelines for the API.
 Once certified, your solution can join the [Mews Marketplace](../mews-marketplace/README.md), your ultimate goal to unlock future revenue opportunities.
