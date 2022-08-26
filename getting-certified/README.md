@@ -14,13 +14,12 @@ Once certified, your solution can join the [Mews Marketplace](../mews-marketplac
 The details vary slightly depending on which API you are certifying, but the broad outline is as follows:
 
 1. Apply for certification by completing the [certification form](https://mews.typeform.com/to/ehTUz7).
-2. You will be notified if your application is successful or if there are issues that need to be rectified.
-3. If your integration is a public integration and your application is successful, then you will be added to the _Coming Soon_ section in both the Mews Marketplace and our customer newsletter.
-4. You will be invited to book your certification appointment.
-5. When the appointment is confirmed, you will receive details of the Client Token and test property that will be used, and any additional preparations you may need to make.
+2. You will be invited to book your certification appointment.
+3. When the appointment is confirmed, you will receive details of the Client Token and test property that will be used, and any additional preparations you may need to make.
     * For Channel Manager API integrations, for example, you will need to set up endpoints for the Channel Manager side of the integration and notify us of the details.
-6. Certification itself will typically be a 90 minute call to run through the checklist.
-7. If all goes to plan, you will then receive email confirmation of successful certification - welcome to the Mews community!
+4. Certification itself will typically be a 90 minute call to run through the checklist.
+5. If all goes to plan, you will then receive email confirmation of successful certification - welcome to the Mews community!
+6. If your integration is a public integration and your application is successful, then you will be added to the _Coming Soon_ section in both the Mews Marketplace and our customer newsletter.
 
 ## Additional resources
 
