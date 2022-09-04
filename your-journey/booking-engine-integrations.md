@@ -3,8 +3,8 @@
 The steps for a Booking Engine API integration are as follows:
 
 * [Step 1: Explore the API](#step-1-exploration)
-* [Step 2: Develop and test your solution](#step-3-development)
-* [Step 3: Register with us](#step-4-registration)
+* [Step 2: Develop and test your solution](#step-2-development)
+* [Step 3: Register with us](#step-3-registration)
 
 If you have questions about the process, drop us a line to [partnersuccess@mews.com](mailto:partnersuccess@mews.com).
 
