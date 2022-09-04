@@ -4,7 +4,7 @@
 * [Getting started](getting-started/README.md)
 * [Mews Marketplace](mews-marketplace/README.md)
 * [Your journey with Mews](your-journey/README.md)
-* [Getting certified](getting-certified/README.md)
+  * [Booking Engine integrations](your-journey/booking-engine-integrations.md)
 * [Staying up to date](staying-up-to-date/README.md)
 * [The Mews APIs](the-mews-apis/README.md)
 * [Use Cases](use-cases/README.md)
