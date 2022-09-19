@@ -60,6 +60,8 @@ You can find more information about certification in the following resources:
 After successful certification, you will be sent a `Client Token` for connection to production sites - this token is unique to your application.
 To connect to a customer property, you will also need an `Access Token` (for the Connector API) or `Connection Token` (for the Channel Manager API) - this token is unique to the property.
 
+> **Important:** Tokens are your security keys to access customer data in Mews, please store them safely and securely, do not share them and do not put them into email communication.
+
 * __Public integration__<br>
 If your integration is intended to be listed publicly in the Mews Marketplace, Mews will add the integration to the agreed pilot property and you will be automatically sent the relevant token for that property (either `Access Token` for a Connector API integration, or `Connection Token` for a Channel Manager API integration).
 The integration will need to run successfully for a period of time(\*1) on the pilot site before you can progress to [Step 6: Publication](#step-6-publication).

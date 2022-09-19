@@ -1,6 +1,6 @@
 # Getting started
 
-Welcome to the __Mews Open API__. This is a powerful tool that enables you to easily connect your hospitality software into Mews and become part of our ecosystem of integrated solutions.
+The __Mews Open API__ is a powerful tool that enables you to easily connect your hospitality software into Mews and become part of our ecosystem of integrated solutions.
 Use the __Mews Open API__ to fetch data, make bookings, adjust rates, post charges, upsell products, and do a myriad of other things.
 
 We take the 'open' part very seriously, which is why we make it as easy as possible to connect and why we are always trying to remove barriers to successful adoption.
@@ -20,6 +20,10 @@ The documentation for each API includes examples of common use cases for that AP
 ## Getting stuck in
 
 Each API includes a Guidelines section explaining how to use the API, including quick-start information for connecting to a Demo environment and getting results right away.
+
+  * [Go straight to the Mews Connector API](https://mews-systems.gitbook.io/connector-api/)
+  * [Go straight to the Mews Channel Manager API](https://mews-systems.gitbook.io/channel-manager-api/)
+  * [Go straight to the Mews Booking Engine API](https://mews-systems.gitbook.io/booking-engine-guide/)
 
 ## Help with terminology
 
