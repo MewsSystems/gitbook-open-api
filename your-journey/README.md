@@ -2,7 +2,7 @@
 
 > ### Partner ID
 > You will be given a Partner ID at the start of the process (e.g. INT123456), please keep this safe as you will need this ID when it is time to certify your integration.
-> Not got one yet? Book a demo to register your interest in the [Mews Marketplace](https://www.mews.com/en/products/marketplace).
+> Not got one yet? [Register to join the Marketplace](https://www.mews.com/en/mews-marketplace-form).
 
 We want your experience working with Mews to be quick and simple, so we make the process as automated and self-service as possible and minimise touchpoints with the Mews team.
 You just need to follow these steps:
