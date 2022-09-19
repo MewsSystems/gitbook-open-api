@@ -4,7 +4,7 @@ Welcome to the __Mews Open API__ developer documentation. Here you will find all
 
 > ### Partner ID
 > You will be given a Partner ID at the start of your integration journey (e.g. INT123456), please keep this safe as you will need this when it's time to certify your integration.
-> Not got one yet? [Register to join the Marketplace](https://www.mews.com/en/products/marketplace).
+> Not got one yet? Start the process by [registering for a Demo](https://www.mews.com/en/products/marketplace).
 
 ## Our APIs
 
