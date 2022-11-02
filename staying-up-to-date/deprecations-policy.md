@@ -14,8 +14,8 @@ This policy addresses the following:
 * [How long is the stoppage notice period?](#how-long-is-the-stoppage-notice-period)
 * [How deprecations are communicated](#how-deprecations-are-communicated)
 * [As a user, what should I do?](#as-a-user-what-should-i-do)
-* [Deprecations & Versioning](#deprecations--versioning)
-* [Questions & feedback](#questions--feedback)
+* [Deprecations and versioning](#deprecations-and-versioning)
+* [Questions and feedback](#questions-and-feedback)
 
 ## Why we have this policy
 
@@ -76,7 +76,7 @@ This is the process or life cycle for a deprecated feature:
 
 4. **Stoppage** - We permanently stop support for the feature.
 
-What we won't do:
+What we _won't_ do:
 
 * We won't just discontinue any feature of the API without first going through a deprecation process.
 * We won't bring forward the discontinuation or stoppage date.
@@ -87,8 +87,8 @@ What we won't do:
 The stoppage notice period is the notice period between a feature being deprecated and it being discontinued.
 We reserve the right to change the duration of this period in order to optimise the process, but as it stands today our guideline is:
 
-* ONE YEAR for a major change
-* SIX MONTHS for a minor change
+* **ONE YEAR** for a major change
+* **SIX MONTHS** for a minor change
 
 ## How deprecations are communicated
 
@@ -113,7 +113,7 @@ The policy for documenting deprecations within the API Reference sections of the
 
 Check the Changelog periodically, but not less often than once a month; optionally, you can set up a notification alert on the GitHub repository for our API Docs to be informed whenever there is an update to the published branch.
 Where a deprecation is announced, check your implementation and, if relevant, plan a change to your implementation. This change must be completed within the deprecation period (stoppage notice period).
-If you are stuck for any reason, get in touch! \(see [Questions & feedback](#questions--feedback)\).
+If you are stuck for any reason, get in touch! \(see [Questions and feedback](#questions-and-feedback)\).
 
 > ### What will be the impact if I fail to change my implementation in time?
 >
@@ -121,10 +121,10 @@ If you are stuck for any reason, get in touch! \(see [Questions & feedback](#que
 > We plan that all discontinued features will not produce unexpected behaviour, but will fail in a safe manner. For example, if you call a discontinued endpoint, then you will simply get a response back to the effect that "this endpoint does not exist".
 > What should never happen is that you use some feature and it works, but works differently to how it did before. Discontinued features should always fail outright.
 
-## Deprecations & Versioning
+## Deprecations and versioning
 
 The deprecations policy remains the same if versioning is implemented within an API. For example, if an endpoint or operation moves from v1 to v2, then v1 will be a deprecated feature and subject to the normal policy and process.
 
-## Questions & feedback
+## Questions and feedback
 
 If you have any questions that are not answered by this policy, or you think that a change is needed to this policy, you require further information, or have any other reason as an API user to communicate about this policy, please as always just get in touch through any available channels, including email to [partnersuccess@mews.com](mailto:partnersuccess@mews.com). 
