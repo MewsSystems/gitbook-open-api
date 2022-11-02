@@ -5,13 +5,22 @@ Our expert product and engineering teams are constantly working to improve and e
 
 You can keep up to date as follows:
 
-* Sign up for the [Partner Newsletter](https://www.mews.com/en/partners-newsletter-subscription)
-* Keep an eye on the Changelog and associated Deprecations for the individual APIs you are using
+### Partner Newsletter
+
+* [Sign up](https://www.mews.com/en/partners-newsletter-subscription) for the Partner Newsletter
+* Browse previous [Partner Newsletters](partner-newsletters.md)
+
+### Changelogs &amp; Deprecations
+
+* Keep an eye on the Changelog and associated Deprecations for the individual APIs you are using:
   * [Connector API - Changelog](https://mews-systems.gitbook.io/connector-api/changelog)
   * [Channel Manager API - Changelog](https://mews-systems.gitbook.io/channel-manager-api/changelog)
   * [Booking Engine API - Changelog](https://mews-systems.gitbook.io/booking-engine-guide/changelog)
+* Read our [Deprecations Policy](deprecations-policy.md)
+
+### GitHub
   
-* Follow us on GitHub
+* Follow us on GitHub:
   * [Connector API - GitHub](https://github.com/MewsSystems/gitbook-connector-api)
   * [Channel Manager API - GitHub](https://github.com/MewsSystems/gitbook-channel-manager-api)
   * [Booking Engine API - GitHub](https://github.com/MewsSystems/gitbook-booking-engine)
