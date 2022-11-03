@@ -1,6 +1,6 @@
 # Deprecations Policy
 
-2nd November 2022
+3rd November 2022
 
 ## Contents
 
@@ -27,11 +27,7 @@ The answer is not to simply stop a feature or make a breaking change without ple
 
 ## What do we mean by deprecated?
 
-* **Deprecated**<br>A feature which is `deprecated` is considered an old feature that users should migrate away from; it is no longer up to date; the implication is that there is a better way to do something, or else this something should no longer be done at all; a `deprecated` feature is still supported, it still works, but this is likely to be only for a limited period of time to allow users to migrate away to the preferred alternative. For most deprecations then, you will want to know:
-  * What is deprecated
-  * When the deprecation occurred
-  * What the replacement feature is
-  * When the deprecated feature will be discontinued altogether
+* **Deprecated**<br>A feature which is `deprecated` is considered an old feature that users should migrate away from; it is no longer up to date; the implication is that there is a better way to do something, or else this something should no longer be done at all; a `deprecated` feature is still supported, it still works, but this is likely to be only for a limited period of time to allow users to migrate away to the preferred alternative.
 
 * **Discontinued**<br>A feature which is `discontinued` no longer exists, it is no longer supported, it is withdrawn, gone, kaput, dead; we might also use `stopped` to mean the same thing.
 
@@ -39,7 +35,7 @@ The answer is not to simply stop a feature or make a breaking change without ple
 
 * **Non-breaking changes**<br>`Non-breaking changes` are changes that should _not_ impact your current implementation, regardless of what features you use.
 
-* **Stoppage notice period**<br>The `stoppage notice period` is the notice period between a feature being deprecated and it being discontinued.
+* **Stoppage notice period**<br>The `stoppage notice period` or `deprecation period` is the notice period between a feature being deprecated and it being discontinued.
 
 ## What we deprecate and why
 
@@ -49,7 +45,7 @@ In the context of our APIs, _feature_ could mean any of these things:
 * A part of the functionality of an API operation
 * A data field or property of an API operation
 * A URL or part of a URL
-* A way of communicating or some other aspect, e.g. method of authentication, use of webhooks or WebSockets
+* A way of communicating, e.g. use of webhooks or methods for authentication
 
 As to the why, we deprecate features because we need to make breaking changes and this is a way to let you know that you should change your implementation, and to give you time to do so - see [Why we have this policy](#why-we-have-this-policy).
 
@@ -70,9 +66,9 @@ This is the process or life cycle for a deprecated feature:
 
 1. **Announcement** - We announce in the Changelog what feature is deprecated and add it to the Deprecations table; a discontinuation or stoppage date will be set.
 
-2. **Optional push back** - (Optional) The discontinuation or stoppage date may be pushed back, according to circumstances; it will never be brought forward.
+2. **Push back** - (Optional) The discontinuation or stoppage date may be pushed back, according to circumstances; it will never be brought forward.
 
-3. **Reminder** - (Optional) We may remind users of pending stoppages prior to the stoppage occurring, typically we expect this to be about a month before, but we reserve the right to adjust that based on what produces the best outcome, or to vary it in specific circumstances.
+3. **Reminder** - (Optional) We may remind users of pending stoppages prior to the stoppage occurring, but this depends on circumstances such as the scale and importance of the change.
 
 4. **Stoppage** - We permanently stop support for the feature.
 
@@ -84,7 +80,7 @@ What we _won't_ do:
 
 ## How long is the stoppage notice period?
 
-The stoppage notice period is the notice period between a feature being deprecated and it being discontinued.
+The stoppage notice period or deprecation period is the notice period between a feature being deprecated and it being discontinued.
 We reserve the right to change the duration of this period in order to optimise the process, but as it stands today our guideline is:
 
 * **ONE YEAR** for a major change
