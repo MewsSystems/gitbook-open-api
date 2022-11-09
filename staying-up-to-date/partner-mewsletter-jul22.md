@@ -1,4 +1,4 @@
-# Jul 2022 Partner Mewsletter
+# Jul 2022 Mewsletter
 
 # API Versioning – Share your thoughts
 
