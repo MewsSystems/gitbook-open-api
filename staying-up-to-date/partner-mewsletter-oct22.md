@@ -1,4 +1,4 @@
-# Oct 2022 Partner Mewsletter
+# Oct 2022 Mewsletter
 
 # All About Deprecations
 
