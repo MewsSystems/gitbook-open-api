@@ -1,5 +1,3 @@
-_Oct 2022 Partner Mewsletter_
-
 # All About Deprecations
 
  Hello from the Mews Connectivity Team. In this Mewsletter, we have three things for you:
