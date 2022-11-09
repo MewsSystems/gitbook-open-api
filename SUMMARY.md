@@ -7,6 +7,8 @@
   * [Booking Engine integrations](your-journey/booking-engine-integrations.md)
 * [Staying up to date](staying-up-to-date/README.md)
   * [Partner Newsletters](staying-up-to-date/partner-newsletters.md)
+    * [Oct 2022 Mewsletter](staying-up-to-date/partner-mewsletter-oct22.md)
+    * [Jul 2022 Mewsletter](staying-up-to-date/partner-mewsletter-jul22.md)
   * [Deprecations Policy](staying-up-to-date/deprecations-policy.md)
 * [The Mews APIs](the-mews-apis/README.md)
 * [Use Cases](use-cases/README.md)

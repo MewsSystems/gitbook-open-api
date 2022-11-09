@@ -1,6 +1,6 @@
 # Deprecations Policy
 
-3rd November 2022
+8th November 2022
 
 ## Contents
 
@@ -19,8 +19,8 @@ This policy addresses the following:
 
 ## Why we have this policy
 
-Changes to the APIs are necessary and inevitable as part of continuous improvement to our products and services. We try to make those changes in such a way that there is only positive impact on users, not negative impact.
-For example, we announce new features and other changes, we encourage you to take advantage of them, and we actively try to avoid making breaking changes, i.e. changes that would impact your current implementation.
+Changes to the APIs are necessary and inevitable as part of continuous improvement to our products and services. We try to make those changes in such a way that there is only positive impact on users.
+For example, we announce new features and other changes, we encourage you to take advantage of them and we actively try to avoid making breaking changes, i.e. changes that would impact your current implementation.
 
 Sometimes, however, breaking changes are unavoidable. So the question becomes, how can we manage these changes in a way that has the least negative impact on users?
 The answer is not to simply stop a feature or make a breaking change without plenty of notice. Making a feature `deprecated` is us giving notice that this feature will be stopped in the future.
@@ -56,7 +56,7 @@ Most changes to the API do not in fact involve deprecation. For example:
 * Adding a new endpoint
 * Adding fields to an existing endpoint
 
-These are non-breaking changes, in other words changes that do not require any change to legacy implementations for their continued working.
+These are considered non-breaking changes, in other words changes that do not require any change to legacy implementations for their continued working.
 Deprecations are planned breaking changes, i.e. a statement that we intend to make a breaking change.
 We plan it so that any such change does not produce unexpected behaviour \(see [As a user, what should I do?](#as-a-user-what-should-i-do)\) and we follow a clear deprecation process \(see [How we deprecate](#how-we-deprecate)\) to keep you informed and allow you to implement the necessary changes to your implementation.
 
