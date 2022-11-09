@@ -1,4 +1,4 @@
-# Jul 2022 Mewsletter
+_26 Jul 2022_
 
 # API Versioning – Share your thoughts
 
