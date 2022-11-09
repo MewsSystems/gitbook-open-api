@@ -1,8 +1,8 @@
-# Oct 2022 Mewsletter
+<HR/>
 
 # All About Deprecations
 
- Hello from the Mews Connectivity Team. In this Mewsletter, we have three things for you:
+Hello from the Mews Connectivity Team. In this Mewsletter, we have three things for you:
 * **An Important Call to Action!**
 * **A Thank You**
 * **Exciting News about Future Releases**
