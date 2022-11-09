@@ -1,3 +1,5 @@
+# Jul 2022 Partner Mewsletter
+
 # API Versioning – Share your thoughts
 
 TL;DR: We have a plan to add versioning to the Mews Connector API, but, first, we want to get your opinions. Click [here](https://mews.typeform.com/to/JCpBXN9h) to take a quick survey.
