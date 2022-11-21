@@ -17,5 +17,4 @@ If you need further assistance, or have any questions or special requests, pleas
 
 > ### Changes to the documentation
 > To track changes and updates to this documentation, you can follow the [GitHub repository](https://github.com/MewsSystems/gitbook-open-api/tree/master).
-> For the individual APIs, we maintain Changelog and Deprecations pages, or you can also follow these on GitHub if you prefer.
-> For details, see the individual APIs.
+> For the individual APIs, we maintain Changelog and Deprecations pages, or you can also follow these on GitHub if you prefer - see [Staying up to date](staying-up-to-date/README.md).
