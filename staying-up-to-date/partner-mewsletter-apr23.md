@@ -52,6 +52,8 @@ Now the owner of a bill or invoice can be a **company** or an individual **custo
 * **API Operations**: [Add order](https://mews-systems.gitbook.io/connector-api/operations/orders#add-order), [Add external payment](https://mews-systems.gitbook.io/connector-api/operations/payments#add-external-payment), [Add bill](https://mews-systems.gitbook.io/connector-api/operations/bills#add-bill)
 * **Mews Help**: [How to create and manage company bills](https://help.mews.com/s/article/How-to-create-and-manage-company-bills?language=en_US)
 
+<hr>
+
 ## More pagination
 
 All the most popular ‘Get’ operations now support [pagination](https://mews-systems.gitbook.io/connector-api/guidelines/pagination). Use pagination for more efficient fetching of data, to avoid [request timeouts](https://mews-systems.gitbook.io/connector-api/guidelines/requests#request-timeouts) and to benefit from a **higher quota** – all part of API [best practices](https://mews-systems.gitbook.io/connector-api/guidelines/best-practices).
