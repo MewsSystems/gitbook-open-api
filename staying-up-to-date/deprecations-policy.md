@@ -1,6 +1,6 @@
 # Deprecations Policy
 
-8th November 2022
+Sep 3rd, 2024
 
 ## Contents
 
@@ -78,43 +78,51 @@ What we _won't_ do:
 * We won't bring forward the discontinuation or stoppage date.
 * We won't plan a change that could cause unexpected behaviour if a user continues to try and use a discontinued feature.
 
+> ### Soft stoppage
+> When a feature is stopped or discontinued, it is removed from the documentation and no longer supported or maintained. However, we do not immediately 'switch off the lights'.
+> We try to contact affected partners to make sure they are aware of the stoppage, and we temporarily remove the feature via brown-outs, as a way of communicating with those partners that were otherwise not informed or failed to take action.
+> We do this for a period of time that is agreed with affected partners, or at our own discretion, before finally pulling the plug and permanently terminating the feature.
+
 ## How long is the stoppage notice period?
 
 The stoppage notice period or deprecation period is the notice period between a feature being deprecated and it being discontinued.
-We reserve the right to change the duration of this period in order to optimise the process, but as it stands today our guideline is:
+We reserve the right to change the duration of this period in order to optimise the process, but our guideline is:
 
-* **ONE YEAR** for a major change
-* **SIX MONTHS** for a minor change
+* Minimum of **ONE YEAR** for all changes
+* All changes batched to fall on the next **JANUARY**
+
+> **For example**: A feature deprecated on June 28th, 2024 would be discontinued in January of 2026. A feature deprecated on October 28th, 2024 would also be discontinued in January of 2026.
+> Batching the changes like this is intended to make the maintenance task much easier for our customers and partners, and indeed for us.
 
 ## How deprecations are communicated
 
-The documentation for each individual API should include a Deprecations page which summarises all deprecations in the API. It provides the necessary information in these table columns:
+* **Changelog**<br>
+The Changelog tracks individual changes to the API, including deprecations.
 
-* **Feature** - What is deprecated
-* **Comments** - Additional information, such as the reason for the deprecation and what the replacement feature is
-* **Deprecated** - The date when the deprecation occurred, i.e. was announced in the Changelog
-* **Discontinued** - The date when the deprecated feature will be discontinued altogether (or _was_ discontinued if the date has passed), or '-' if no date has been set
+* **Deprecations table**<br>
+The documentation for each individual API includes a Deprecations page which summarises all deprecations in the API. It provides the necessary information in these table columns:
 
-This is in addition to the Changelog which tracks individual changes to the API, including deprecations.
+  * **Feature** - What is deprecated
+  * **Comments** - Additional information, such as the reason for the deprecation and what the replacement feature is
+  * **Deprecated** - The date when the deprecation occurred, i.e. was announced in the Changelog
+  * **Discontinued** - The date when the deprecated feature will be discontinued altogether (or _was_ discontinued if the date has passed), or '-' if no date has been set
 
-The policy for documenting deprecations within the API Reference sections of the documentation currently varies between our APIs, as follows:
+* **API Operations**<br>
+Deprecated features are shown in the API reference documentation with strikethrough (e.g. ~~TaxValues~~), followed by the label **Deprecated!**.
 
-* **Connectivity API**<br>Deprecated features are removed entirely from the documentation; deprecated features are, however, visible in the OpenAPI definition (linked from the home page), marked as `deprecated` as per the OpenAPI specification.
-
-* **Channel Manager API**<br>Deprecated features are shown in the documentation with strikethrough (e.g. ~~channel~~), followed by the word `Deprecated`. There is currently no Deprecations page summarising all deprecations (historically, deprecations have been very rare in this API), however we plan to add a Deprecations page for consistency across all the APIs.
-
-* **Booking Engine API**<br>Deprecated features are shown in the documentation with strikethrough (e.g. ~~TaxValues~~), followed by the word `Deprecated`.
+* **OpenAPI definition**<br>
+Where we publish an OpenAPI definition for the API (linked from the home page), deprecated features are indicated, as per the OpenAPI specification.
 
 ## As a user, what should I do?
 
-Check the Changelog periodically, but not less often than once a month; optionally, you can set up a notification alert on the GitHub repository for our API Docs to be informed whenever there is an update to the published branch.
+Check the Changelog periodically, but not less often than once a month; optionally, you can set up a notification alert on the GitHub repository for our API Docs to be informed whenever there is an update to the master branch.
 Where a deprecation is announced, check your implementation and, if relevant, plan a change to your implementation. This change must be completed within the deprecation period (stoppage notice period).
 If you are stuck for any reason, get in touch! \(see [Questions and feedback](#questions-and-feedback)\).
 
 > ### What will be the impact if I fail to change my implementation in time?
 >
 > If you try to use a `deprecated` feature after its discontinuation / stoppage date, then the functionality will simply not work.
-> We plan that all discontinued features will not produce unexpected behaviour, but will fail in a safe manner. For example, if you call a discontinued endpoint, then you will simply get a response back to the effect that "this endpoint does not exist".
+> We plan that all discontinued features will not produce unexpected behaviour, but will fail in a safe manner. For example, if you call a discontinued endpoint, we will return an http `410` code, indicating "this resource no longer exists".
 > What should never happen is that you use some feature and it works, but works differently to how it did before. Discontinued features should always fail outright.
 
 ## Deprecations and versioning
