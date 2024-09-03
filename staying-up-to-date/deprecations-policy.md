@@ -1,6 +1,6 @@
 # Deprecations Policy
 
-June 28th, 2024
+Sep 3rd, 2024
 
 ## Contents
 
