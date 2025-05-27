@@ -49,7 +49,10 @@ You will be prompted by email to provide basic details:
 
 > Go develop your integration!
 
-Once registered, use the Demo credentials provided for each API to start building and testing against Mews Demo environments. Refer to the documentation for environment access and usage details. For example, if you're working with the Mews Connector API, the [Usage guidelines](https://mews-systems.gitbook.io/connector-api/guidelines) include [platform addresses and access credentials](https://mews-systems.gitbook.io/connector-api/guidelines/environments).
+Once registered, you can begin development and testing in our sandbox environments. In most cases, public Demo credentials are provided in the documentation. In some cases, such as the Channel Manager API, you’ll need to request a `Client Token` from Mews to access the Demo environment. See the specific API documentation for details:
+
+* [Mews Connector API: Demo environment access](https://mews-systems.gitbook.io/connector-api/guidelines/environments)
+* [Mews Channel Manager API: Demo environment access](https://mews-systems.gitbook.io/channel-manager-api/your-journey)
 
 ## Step 4: Certification
 
