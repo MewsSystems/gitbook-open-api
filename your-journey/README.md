@@ -108,9 +108,6 @@ If this is a private integration to a single enterprise or chain, Mews will add 
 
 After a successful pilot or monitoring stage, your integration will be declared fit for general publication. Unless it's a private integration, you will automatically be notified by email with final instructions, and your application will be listed in the [Mews Marketplace](../mews-marketplace/README.md) and on the [Mews website](https://www.mews.com/en/products/marketplace), and you can roll it out to all properties that want to integrate.
 
-For further information, see the following Mews Help articles:
-
-* [Connector API onboarding guide](https://help.mews.com/s/article/connector-api-integrations-onboarding-mutual-customers?language=en_US)
-* [Channel Manager API onboarding guide](https://help.mews.com/s/article/channel-manager-onboarding-guide?language=en_US)
+For additional resources, search the [Mews Help Center](https://help.mews.com).
 
 > \*1 The monitoring period will depend on circumstances, but typically this will be 2 weeks for a Connector API integration or 4 weeks for a Channel Manager API integration.
