@@ -2,9 +2,8 @@
 
 Welcome to the __Mews Open API__ developer documentation. Here you will find all the information you need to get started working with the __Mews Open API__ as quickly as possible, as well as support in case you get stuck, and of course a full reference for each individual API. Let's jump in!
 
-> ### Partner ID
-> You will be given a Partner ID at the start of your integration journey (e.g. INT123456), please keep this safe as you will need this when it's time to certify your integration.
-> Not got one yet? [Register to join the Marketplace](https://www.mews.com/en/mews-marketplace-form).
+> ### Your journey with Mews
+> You’re welcome to explore the Mews Open API at your own pace. To proceed with an integration, access customer environments, and join the [Mews Marketplace](mews-marketplace/README.md), see [Your journey with Mews](your-journey/README.md).
 
 ## Our APIs
 
