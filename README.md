@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository was merged into [open-api-docs](https://github.com/MewsSystems/open-api-docs) repository.
+
 # Mews Open API
 
 Welcome to the __Mews Open API__ developer documentation. Here you will find all the information you need to get started working with the __Mews Open API__ as quickly as possible, as well as support in case you get stuck, and of course a full reference for each individual API. Let's jump in!
